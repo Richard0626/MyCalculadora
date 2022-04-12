@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Sistema de Evaluacion"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/titulo"/>
+
+    <Spinner
+        android:id="@+id/porcentaje"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/black"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:text="Practicas Teoricas"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/titulo"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:text="Prom: 13.0"
+            android:textAlignment="textEnd"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:paddingTop="5dp"
+            android:text="Practica 1"
+            android:textColor="@color/subtitulo"
+            android:textSize="14dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:inputType="number"
+            android:text="14"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:textColor="@color/subtitulo"></com.google.android.material.textfield.TextInputEditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:paddingTop="5dp"
+            android:text="Practica 2"
+            android:textColor="@color/subtitulo"
+            android:textSize="14dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:inputType="number"
+            android:text="14"
+            android:textAlignment="center"
+            android:textColor="@color/subtitulo"
+            android:textSize="14dp"></com.google.android.material.textfield.TextInputEditText>
+
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/black"
+        android:textSize="14dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:text="Practicas Teoricas"
+            android:textColor="@color/titulo"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:text="Prom:14.5"
+            android:textAlignment="textEnd"
+            android:textSize="17sp"
+            android:textStyle="bold"></TextView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:paddingTop="5dp"
+            android:text="Practica 1"
+            android:textColor="@color/titulo"
+            android:textSize="14dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:inputType="number"
+            android:text="14"
+            android:textAlignment="center"
+            android:textColor="@color/titulo"
+            android:textSize="14dp"></com.google.android.material.textfield.TextInputEditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:paddingTop="5dp"
+            android:text="Practica 2"
+            android:textColor="@color/titulo"
+            android:textSize="14dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:inputType="number"
+            android:text="12"
+            android:textAlignment="center"
+            android:textColor="@color/titulo"
+            android:textSize="14dp"></com.google.android.material.textfield.TextInputEditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:paddingTop="5dp"
+            android:text="Practica 3"
+            android:textColor="@color/titulo"
+            android:textSize="14dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:inputType="number"
+            android:text="14"
+            android:textAlignment="center"
+            android:textColor="@color/titulo"
+            android:textSize="14dp"></com.google.android.material.textfield.TextInputEditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:paddingTop="5dp"
+            android:text="Practica 4"
+            android:textColor="@color/titulo"
+            android:textSize="14dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:inputType="number"
+            android:text="18"
+            android:textAlignment="center"
+            android:textColor="@color/titulo"
+            android:textSize="14dp"></com.google.android.material.textfield.TextInputEditText>
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:padding="20dp"
+        android:text="Promedio: 14.05"
+        android:textColor="@color/promedio"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+
+        android:text="Aprobado!"
+        android:textColor="@color/aprobado"
+
+        android:textStyle="bold"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="CALCULAR"
+            android:textSize="30dp"
+            app:backgroundTint="@null"
+            android:layout_alignParentBottom="true"
+            android:background="@color/boton"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
